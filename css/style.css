@@ -392,6 +392,47 @@ img {
   transform: translateY(-20px);
 }
 
+/* Services */
+.services-head .grid {
+  display: flex;
+}
+
+.sub_heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* .services-sub .card {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+} */
+
+.services-sub .servic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.servic .card {
+  width: 350px;
+  height: 200px;
+  margin: 2rem;
+}
+
+.servic h4 {
+  text-align: center;
+  padding: 10px;
+}
+
+.servic p {
+  text-align: center;
+}
+
+/* Footer */
 /* links icons */
 .bg-primary a,
 .btn-primary a,
