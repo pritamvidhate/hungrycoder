@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 :root {
-  --primary-color: #047aed;
+  --primary-color: #3a2cc2;
   --secondary-color: #1c3fa8;
-  --dark-color: #002240;
+  --dark-color: #0b046e;
   --light-color: #f4f4f4;
 }
 
@@ -46,10 +46,6 @@ img {
   color: #fff;
   padding: 10px;
   margin: 0 5px;
-}
-
-.navbar a:hover {
-  color: darkslateblue;
 }
 
 .navbar .flex {
@@ -302,7 +298,7 @@ img {
 /* Cli */
 .cli .grid {
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
 }
 
 .cli .grid > *:first-child {
@@ -377,6 +373,7 @@ img {
   text-align: center;
   margin: 18px 10px 40px;
   transition: transform 0.2s ease-in;
+  border-radius: 15px 50px;
 }
 
 .languages .flex {
@@ -404,12 +401,6 @@ img {
   margin-bottom: 2rem;
 }
 
-/* .services-sub .card {
-  width: 200px;
-  display: flex;
-  flex-direction: row;
-} */
-
 .services-sub .servic {
   display: flex;
   flex-wrap: wrap;
@@ -421,6 +412,12 @@ img {
   width: 350px;
   height: 200px;
   margin: 2rem;
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+}
+
+.servic .card:hover {
+  transform: scale(1.2);
 }
 
 .servic h4 {
@@ -430,6 +427,57 @@ img {
 
 .servic p {
   text-align: center;
+}
+
+/* Contacts */
+.contact h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.grid p {
+  font-size: 1rem;
+}
+
+.contact input {
+  width: 25%;
+  height: 40px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.contact textarea {
+  width: 50%;
+  height: 80px;
+  outline: none;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.contact textarea:hover,
+input:hover {
+  border: 1px solid #3a2cc2;
+}
+
+.btn_send {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px 0 rgb(103 67 213 / 24%);
+  background-color: #3a2cc2;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contact .btn_send:hover {
+  background: #fff;
+  color: #1c3fa8;
+  border: 1px solid #1c3fa8;
 }
 
 /* Footer */
