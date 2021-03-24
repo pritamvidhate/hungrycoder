@@ -342,6 +342,10 @@ img {
   color: #333;
 }
 
+.about img {
+  height: 350px;
+}
+
 /* text sizes */
 .lead {
   font-size: 20px;

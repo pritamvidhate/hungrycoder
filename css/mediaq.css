@@ -20,7 +20,41 @@
 
   .showcase-form {
     justify-self: center;
+    width: 300px;
     margin: auto;
+  }
+
+  .services-head,
+  .services-sub-head {
+    text-align: center;
+  }
+
+  .social i {
+    float: left;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .about .btn-dark {
+    margin-top: 10px;
+  }
+
+  .contact input {
+    width: 100%;
+  }
+
+  .contact textarea {
+    width: 100%;
+  }
+
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+
+  .about img {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
   }
 }
 
